@@ -1,0 +1,1 @@
+A project to create three html pages as a foundation of my professional web presence.  
