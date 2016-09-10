@@ -1,128 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-    <meta charset="utf-8" />
-    <title>Richard Pickett</title>
-  </head>
+<head>
+  <meta charset="utf-8" />
+  <title>Richard Pickett</title>
+</head>
 
-  <body>
-    <header class="h-card" id="header">
-      <h2 class="p-name">Richard S Pickett</h2>
-    </header>
+<body>
+  <header class="h-card" id="header">
+    <h2 class="p-name">Richard S Pickett</h2>
+  </header>
 
-    <ul class="contact-information">
-      <li>
-        <a class="u-email" href="mailto:RSPickett@somemail.com">RSPickett@somemail.com</a>
-      </li>
-      <li>
-        <a class="p-telephone" href="tel:16305551212">(773) 234-2447</a>
-      </li>
+  <ul class="contact-information">
+    <li>
+      <a class="u-email" href="mailto:RSPickett@somemail.com">RSPickett@somemail.com</a>
+    </li>
+    <li>
+      <a class="p-telephone" href="tel:16305551212">(773) 234-2447</a>
+    </li>
+  </ul>
+
+  <section class="qualifications">
+    <h1>Summary of Qualifications</h1>
+    <ul>
+      <li>Analyst/Programmer with over 25 years of experience developing custom application solutions, performing all functions of the software development life cycle (analysis, design, coding, testing, and implementation).</li>
+      <li>Ability to work effectively with both business and technical users.</li>
     </ul>
+  </section>
 
-    <section class="qualifications">
-      <h1>Summary of Qualifications</h1>
+  <section class="technical">
+    <h1>Technical Proficiency</h1>
+    <dl>
+      <dt>Operating Environment: </dt>
+      <dd>Windows, AS/400, IBM370, 3090, OS/MVS</dd>
+      <dt>Languages: </dt>
+      <dd>.Net(C# & VB, WinForms, LINQ, WPF, WCF, Entity Framework), COBOL, JCL, OS/400 Command Language</dd>
+      <dt>Database Technologies: </dt>
+      <dd>SQL Server, DB2, IMS DB/DC, VSAM, CICS</dd>
+      <dt>Development Tools: </dt>
+      <dd>Visual Studio 2005 - 2013, SQL Server Management Studio, LinqPad, Eclipse, Crystal Reports</dd>
+    </dl>
+  </section>
+
+  <section class="experience">
+    <h1>Professional Experience</h1>
+
+    <section>
+      <header class="apollo">
+        <h2>Apollo Casualty Co/American Independent Insurance Companies – Senior Developer 12/2006 – 11/2015</h2>
+      </header>
       <ul>
-        <li>Analyst/Programmer with over 25 years of experience developing custom application solutions, performing all functions of the software development life cycle (analysis, design, coding, testing, and implementation).</li>
-        <li>Ability to work effectively with both business and technical users.</li>
+        <li>Created a WCF web service that accepts an ACORD formatted XML file, verifies it against an XSD, and forwards the request to a rating module.  This module allowed us to standardize the interface for all rating request from insurance aggregators.</li>
+        <li>Created an accompanying web form that used the WCF web service to verify that a broker's XML will pass edits and be rated before beginning live transmissions.</li>
+        <li>Created a data transfer process between AIIC's database and a local agent's policy tracking application.  Incoming process involved reading a flat file and creating XML which was then used to update the AIIC data.  Outgoing process involved reading the database and creating a flat file to be input into the agent's system. Increased the accuracy and reduced the input time of the underwriting process.</li>
+        <li>Designed and coded the Payment Processing, Invoicing, and Reporting portions of Apollo’s TURMS system.  This portion of the application recorded payments received from, disbursements made to, and adjustments needed for a broker.  It related these to purchase transactions allowing the company to track balances and create invoices and report sales figures for the Commercial Underwriting division of the company.</li> 
+        <li>Performed enhancements and fixes to the TURMS system.  The TURMS system captures underwriting data, rates the auto policy, and provides documentation to the insured.</li>
+        <li>Administered the SQL Server database.  Including creating tables, stored procedures, performing backups and restores, and tuning the database.</li>
       </ul>
     </section>
 
-    <section class="technical">
-      <h1>Technical Proficiency</h1>
-      <dl>
-        <dt>Operating Environment: </dt>
-        <dd>Windows, AS/400, IBM370, 3090, OS/MVS</dd>
-        <dt>Languages: </dt>
-        <dd>.Net(C# & VB, WinForms, LINQ, WPF, WCF, Entity Framework), COBOL, JCL, OS/400 Command Language</dd>
-        <dt>Database Technologies: </dt>
-        <dd>SQL Server, DB2, IMS DB/DC, VSAM, CICS</dd>
-        <dt>Development Tools: </dt>
-        <dd>Visual Studio 2005 - 2013, SQL Server Management Studio, LinqPad, Eclipse, Crystal Reports</dd>
-      </dl>
+    <section>
+      <header class="bradley">
+        <h2>Bradley Consulting Group, Inc. - Senior Technical Consultant 4/1998 – 7/2006</h2>
+      </header>
+      <h3>Client Experience</h3>
+      <h4>Moose International</h4>
+      <p>Designed and coded the payment process for the Membership Management System.  This process accepts payments from a lockbox, allocates the payment to a member, associates that member to a lodge, and disburses the money to that lodge through ACH processing.</p>
+      <h4>Illinois Department of Public Aid – State Disbursement Unit</h4>
+      <ul>
+        <li>Team Leader of a group that was responsible for the set-up and maintenance of AS/400 security; migration of programs to the production environment; creation, generation, and distribution of Crystal Reports reports; and database administration of the DB2 and SQL Server databases.</li>
+        <li>Team Lead/Designer/Programmer for a team that performed program maintenance and enhancements for the SDU.  Worked on all areas of the batch and online system, including receipt of funds, validation of payments, electronic and paper disbursements, the SDU/clerk/IDPA KIDS interface, and the employer EFT processing.</li>
+      </ul>
+      <h4>State Universities Retirement System of Illinois</h4>
+      <p>Designer for the QILDRO (Qualified Illinois Domestic Relations Order) and 1099R year-end reporting processes for the Pay Benefits system.  The Pay Benefits system encompasses many features of a traditional payroll application, including creation of benefit checks, processing of health/life insurance deductions, federal withholding (including rollovers), and electronic funds transfer.  The QILDRO process within this system receives a court order, matches the document to a member, collects data on the alternate payee, and creates records to be used by the Pay Benefits system to create benefit checks.  The 1099R process reports benefit amounts paid to the IRS and to the individual members.</p>
     </section>
 
-    <section class="experience">
-      <h1>Professional Experience</h1>
+    <section>
+      <header class="csc">
+        <h2>Computer Sciences Corporation - Staff Consultant 1/1990 – 4/1998</h2>
+      </header>
 
-        <section>
-          <header class="apollo">
-            <h2>Apollo Casualty Co/American Independent Insurance Companies – Senior Developer 12/2006 – 11/2015</h2>
-          </header>
-          <ul>
-            <li>Created a WCF web service that accepts an ACORD formatted XML file, verifies it against an XSD, and forwards the request to a rating module.  This module allowed us to standardize the interface for all rating request from insurance aggregators.</li>
-            <li>Created an accompanying web form that used the WCF web service to verify that a broker's XML will pass edits and be rated before beginning live transmissions.</li>
-            <li>Created a data transfer process between AIIC's database and a local agent's policy tracking application.  Incoming process involved reading a flat file and creating XML which was then used to update the AIIC data.  Outgoing process involved reading the database and creating a flat file to be input into the agent's system. Increased the accuracy and reduced the input time of the underwriting process.</li>
-            <li>Designed and coded the Payment Processing, Invoicing, and Reporting portions of Apollo’s TURMS system.  This portion of the application recorded payments received from, disbursements made to, and adjustments needed for a broker.  It related these to purchase transactions allowing the company to track balances and create invoices and report sales figures for the Commercial Underwriting division of the company.</li> 
-            <li>Performed enhancements and fixes to the TURMS system.  The TURMS system captures underwriting data, rates the auto policy, and provides documentation to the insured.</li>
-            <li>Administered the SQL Server database.  Including creating tables, stored procedures, performing backups and restores, and tuning the database.</li>
-          </ul>
-        </section>
+      <h3 class="client-experience">Client Experience</h3>  
 
-        <section>
-          <header class="bradley">
-            <h2>Bradley Consulting Group, Inc. - Senior Technical Consultant 4/1998 – 7/2006</h2>
-          </header>
-          <h3>Client Experience</h3>
-          <h4>Moose International</h4>
-          <p>Designed and coded the payment process for the Membership Management System.  This process accepts payments from a lockbox, allocates the payment to a member, associates that member to a lodge, and disburses the money to that lodge through ACH processing.</p>
-          <h4>Illinois Department of Public Aid – State Disbursement Unit</h4>
-          <ul>
-            <li>Team Leader of a group that was responsible for the set-up and maintenance of AS/400 security; migration of programs to the production environment; creation, generation, and distribution of Crystal Reports reports; and database administration of the DB2 and SQL Server databases.</li>
-            <li>Team Lead/Designer/Programmer for a team that performed program maintenance and enhancements for the SDU.  Worked on all areas of the batch and online system, including receipt of funds, validation of payments, electronic and paper disbursements, the SDU/clerk/IDPA KIDS interface, and the employer EFT processing.</li>
-          </ul>
-          <h4>State Universities Retirement System of Illinois</h4>
-          <p>Designer for the QILDRO (Qualified Illinois Domestic Relations Order) and 1099R year-end reporting processes for the Pay Benefits system.  The Pay Benefits system encompasses many features of a traditional payroll application, including creation of benefit checks, processing of health/life insurance deductions, federal withholding (including rollovers), and electronic funds transfer.  The QILDRO process within this system receives a court order, matches the document to a member, collects data on the alternate payee, and creates records to be used by the Pay Benefits system to create benefit checks.  The 1099R process reports benefit amounts paid to the IRS and to the individual members.</p>
-        </section>
+      <h4 class="rrdonnelley">R.R. Donnelley and Sons</h4>
+      <ul>
+        <li>Lead test analyst on a Y2K project that developed the testing strategy for the McCormick and Dodge package upgrade.</li>
+        <li>Created the Y2K compliance definition, the tool selection process, and the test case development process.</li>
+        <li>Developed and conducted surveys to assess the Y2K risk.  Inventoried embedded systems hardware.</li>
+      </ul> 
 
-        <section>
-          <header class="csc">
-            <h2>Computer Sciences Corporation - Staff Consultant 1/1990 – 4/1998</h2>
-          </header>
+      <h4 class="dupage-county">DuPage County Circuit Court Clerk</h4>
+      <p>Team Leader for a small project team that created an interface that provided an outside vendor access to the clerk’s court records.  Performed the design and analysis of the system and wrote technical specifications for each module in the criminal portion of the system.  Scheduled, assigned, and tracked tasks for the project, leading it to completion on time and within budget.</p>
 
-          <h3 class="client-experience">Client Experience</h3>  
+      <h4 class="network-data-processing">Network Data Processing (now Fiserv)</h4>
+      <ul>
+        <li>Wrote functional and technical specifications for adding multiple fund investment functionality to the ID3 insurance software.</li>
+        <li>Lead analyst that developed a process to transfer value between funds.</li>
+        <li>Technical designer for the Loan and Premium Deposit Fund (PDF) processing.</li>
+        <li>Wrote modifications to accept and process scanned application forms, coded various enhancements to the system, and resolved incident reports.</li>
+      </ul>
 
-          <h4 class="rrdonnelley">R.R. Donnelley and Sons</h4>
-          <ul>
-            <li>Lead test analyst on a Y2K project that developed the testing strategy for the McCormick and Dodge package upgrade.</li>
-            <li>Created the Y2K compliance definition, the tool selection process, and the test case development process.</li>
-            <li>Developed and conducted surveys to assess the Y2K risk.  Inventoried embedded systems hardware.</li>
-          </ul> 
+      <h4 class="matsushita">Matsushita</h4>
+      <p>Wrote specifications and developed on-line and batch programs relating to the interface architecture of their Pro-21 Order Management and Customer Service application.</p>
 
-          <h4 class="dupage-county">DuPage County Circuit Court Clerk</h4>
-          <p>Team Leader for a small project team that created an interface that provided an outside vendor access to the clerk’s court records.  Performed the design and analysis of the system and wrote technical specifications for each module in the criminal portion of the system.  Scheduled, assigned, and tracked tasks for the project, leading it to completion on time and within budget.</p>
+      <h4 class="ides">Illinois Department of Employment Security</h4>
+      <p>Wrote specifications and developed on-line and batch programs that collected and reported employer data reported to the state employment agency.</p>
 
-          <h4 class="network-data-processing">Network Data Processing (now Fiserv)</h4>
-          <ul>
-            <li>Wrote functional and technical specifications for adding multiple fund investment functionality to the ID3 insurance software.</li>
-            <li>Lead analyst that developed a process to transfer value between funds.</li>
-            <li>Technical designer for the Loan and Premium Deposit Fund (PDF) processing.</li>
-            <li>Wrote modifications to accept and process scanned application forms, coded various enhancements to the system, and resolved incident reports.</li>
-          </ul>
-
-          <h4 class="matsushita">Matsushita</h4>
-          <p>Wrote specifications and developed on-line and batch programs relating to the interface architecture of their Pro-21 Order Management and Customer Service application.</p>
-
-          <h4 class="ides">Illinois Department of Employment Security</h4>
-          <p>Wrote specifications and developed on-line and batch programs that collected and reported employer data reported to the state employment agency.</p>
-
-          <h4 class="motorola">Motorola</h4>
-          <ul>
-            <li>Analyst involved in the requirements definition phase for enhancements to a major electronics manufacturer's order processing system.  Studied the current system and interviewed business users to determine the requirements and scope of requested enhancements, produced the requirements definition, and presented them to the client for approval.</li>
-            <li>Programmer/Analyst that helped to develop a PC-based dealer entry system to capture programming and billing data.  Helped with the development of the logical data design and the physical data specifications.  Designed and wrote specifications for the billing data screens and a number of other background programs.  Developed the primary data gathering screen for the system and participated in the system and user testing phases.</li>
-            <li>Programmer/Analyst that maintained an order entry system.  Analyzed and supported system failures, and designed coded, tested, and implemented programs to enhance the IMS DC system.</li> 
-          </ul>  
-
-        </section>
-        <section>
-          <header class="education">
-            <ul>
-              <
-            </ul>
-          </header>
-        </section>
-
+      <h4 class="motorola">Motorola</h4>
+      <ul>
+        <li>Analyst involved in the requirements definition phase for enhancements to a major electronics manufacturer's order processing system.  Studied the current system and interviewed business users to determine the requirements and scope of requested enhancements, produced the requirements definition, and presented them to the client for approval.</li>
+        <li>Programmer/Analyst that helped to develop a PC-based dealer entry system to capture programming and billing data.  Helped with the development of the logical data design and the physical data specifications.  Designed and wrote specifications for the billing data screens and a number of other background programs.  Developed the primary data gathering screen for the system and participated in the system and user testing phases.</li>
+        <li>Programmer/Analyst that maintained an order entry system.  Analyzed and supported system failures, and designed coded, tested, and implemented programs to enhance the IMS DC system.</li> 
+      </ul>  
 
     </section>
-  </body>
+    <section>
+      <header class="education">
+      <h2>Education</h2>
+      </header>
+      <ul>
+        <li>Master of Business Administration</li>
+        <li>The University of Iowa</li>
+        <li>Iowa City</li>
+        <li>Iowa</li>
+      </ul>
+      <ul>
+        <li>Bachelor of Science</li>
+        <li>Iowa State University</li>
+        <li>Ames</li>
+        <li>Iowa</li>
+      </ul>
+    </section>
+
+
+  </section>
+</body>
 </html>
